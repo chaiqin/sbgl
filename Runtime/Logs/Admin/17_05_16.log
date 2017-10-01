@@ -1,0 +1,1231 @@
+[ 2017-05-16T12:17:00+08:00 ] 127.0.0.1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+
+[ 2017-05-16T12:17:00+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2017-05-16T12:17:00+08:00 ] 127.0.0.1 /admin.php/Login/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+
+[ 2017-05-16T12:17:09+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_user` WHERE ( user='151110192' AND status=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sbgl_user` SET `login_time`='1494908229',`login_ip`='127.0.0.1',`login_number`='16' WHERE `id` = 1 [ RunTime:0.0188s ]
+
+[ 2017-05-16T12:17:09+08:00 ] 127.0.0.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_node_class` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sbgl_system` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sbgl_system` WHERE ( name='backstage' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( display=1 and id in(30,79,80,50,51,52,53,54,55,56,57,58,59,60,61,81,32,33,34,35,36,37,41,42,77,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,78,39,40,46,47,48,49) ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_node_class` WHERE `id` IN ('3','4','8','12','5','7','2') ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2017-05-16T12:17:09+08:00 ] 127.0.0.1 /admin.php/Index/desktop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` WHERE ( dv_time>=1494864000 AND dv_time<=1494950399 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` WHERE ( dv_time>=1494777600 AND dv_time<=1494863999 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` WHERE ( dv_time>=1494172800 AND dv_time<=1494777599 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` WHERE ( dv_time>=1493568000 AND dv_time<=1496246399 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sbgl_buy` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` WHERE ( time>=1494864000 AND time<=1494950399 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` WHERE ( time>=1494777600 AND time<=1494863999 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` WHERE ( time>=1494172800 AND time<=1494777599 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` WHERE ( time>=1493568000 AND time<=1496246399 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_repair` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_repair` WHERE ( rp_time>=1494864000 AND rp_time<=1494950399 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_repair` WHERE ( rp_time>=1494777600 AND rp_time<=1494863999 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_repair` WHERE ( rp_time>=1494172800 AND rp_time<=1494777599 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_repair` WHERE ( rp_time>=1493568000 AND rp_time<=1496246399 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sbgl_borrow` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_borrow` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_borrow` WHERE ( br_time>=1494864000 AND br_time<=1494950399 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_borrow` WHERE ( br_time>=1494777600 AND br_time<=1494863999 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_borrow` WHERE ( br_time>=1494172800 AND br_time<=1494777599 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_borrow` WHERE ( br_time>=1493568000 AND br_time<=1496246399 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( type=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1494864000 AND reg_time<=1494950399 AND type=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1494777600 AND reg_time<=1494863999 AND type=0 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1494172800 AND reg_time<=1494777599 AND type=0 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1493568000 AND reg_time<=1496246399 AND type=0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1494864000 AND reg_time<=1494950399 AND type=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1494777600 AND reg_time<=1494863999 AND type=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1494172800 AND reg_time<=1494777599 AND type=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1493568000 AND reg_time<=1496246399 AND type=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-05-16T12:17:13+08:00 ] 127.0.0.1 /admin.php/Repair/repairList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2017-05-16T12:17:13+08:00 ] 127.0.0.1 /admin.php/Repair/repairList?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_repair` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_repair` ORDER BY rp_time desc,rp_id desc LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2017-05-16T12:17:19+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-05-16T12:17:41+08:00 ] 127.0.0.1 /admin.php/Borrow/borrowList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002606s ]
+
+[ 2017-05-16T12:17:41+08:00 ] 127.0.0.1 /admin.php/Borrow/borrowList?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004273s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_borrow` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_borrow` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_borrow` ORDER BY br_time desc,br_id desc LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2017-05-16T12:17:42+08:00 ] 127.0.0.1 /admin.php/Borrow/addBorrow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_borrow` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2017-05-16T12:17:47+08:00 ] 127.0.0.1 /admin.php/Buy/buyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2017-05-16T12:17:47+08:00 ] 127.0.0.1 /admin.php/Buy/buyList?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_buy` LEFT JOIN sbgl_manufacturer on sbgl_buy.manufacturer_id=sbgl_manufacturer.mf_id  ORDER BY time desc,id desc LIMIT 0,2   [ RunTime:0.0005s ]
+
+[ 2017-05-16T12:17:48+08:00 ] 127.0.0.1 /admin.php/Buy/addBuy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `sbgl_buy` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_manufacturer`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2017-05-16T12:18:08+08:00 ] 127.0.0.1 /admin.php/User/userList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002820s ]
+
+[ 2017-05-16T12:18:08+08:00 ] 127.0.0.1 /admin.php/User/userList?p=1&start=&end=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`user`,`phone`,`sphone`,`email`,`status`,`reg_time` FROM `sbgl_user` LIMIT 0,1   [ RunTime:0.0003s ]
+
+[ 2017-05-16T12:18:09+08:00 ] 127.0.0.1 /admin.php/User/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002829s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2017-05-16T12:18:13+08:00 ] 127.0.0.1 /admin.php/User/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+
+[ 2017-05-16T12:23:03+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2017-05-16T12:23:05+08:00 ] 127.0.0.1 /admin.php/Device/addDeviceClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-16T12:23:12+08:00 ] 127.0.0.1 /admin.php/Device/addDeviceClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `sbgl_device_class` (`dc_name`) VALUES ('<script>alert(\'he\');</script>') [ RunTime:0.0711s ]
+
+[ 2017-05-16T12:23:13+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2017-05-16T12:23:15+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001833s ]
+
+[ 2017-05-16T12:23:18+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2017-05-16T12:23:21+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2017-05-16T12:23:23+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2017-05-16T12:23:26+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2017-05-16T12:23:28+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002093s ]
+
+[ 2017-05-16T12:23:31+08:00 ] 127.0.0.1 /admin.php/Device/deleteDeviceClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: DELETE FROM `sbgl_device_class` WHERE `dc_id` = 14 [ RunTime:0.0003s ]
+
+[ 2017-05-16T12:23:32+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004571s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2017-05-16T12:24:08+08:00 ] 127.0.0.1 /admin.php/Node/nodeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_node_class` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node_class` ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_node` ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_node` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001957s ]
+
+[ 2017-05-16T12:24:10+08:00 ] 127.0.0.1 /admin.php/Node/addNode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_node_class` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sbgl_node_class` ORDER BY sort asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2017-05-16T12:24:22+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2017-05-16T12:24:25+08:00 ] 127.0.0.1 /admin.php/Device/machineRoomList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_machine_room` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_machine_room` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_machine_room` ORDER BY mr_sort asc,mr_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2017-05-16T12:24:29+08:00 ] 127.0.0.1 /admin.php/Device/deviceList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003639s ]
+
+[ 2017-05-16T12:24:29+08:00 ] 127.0.0.1 /admin.php/Device/deviceList?p=1&start=&end=&dc=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sbgl_device` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_device` LEFT JOIN sbgl_device_class on sbgl_device.dv_pid=sbgl_device_class.dc_id  ORDER BY dv_time desc,dv_identifier desc LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-16T12:24:37+08:00 ] 127.0.0.1 /admin.php/Device/lookup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-05-16T12:24:41+08:00 ] 127.0.0.1 /admin.php/Buy/buyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2017-05-16T12:24:41+08:00 ] 127.0.0.1 /admin.php/Buy/buyList?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_buy` LEFT JOIN sbgl_manufacturer on sbgl_buy.manufacturer_id=sbgl_manufacturer.mf_id  ORDER BY time desc,id desc LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2017-05-16T12:24:43+08:00 ] 127.0.0.1 /admin.php/Buy/manufacturerList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2017-05-16T12:24:43+08:00 ] 127.0.0.1 /admin.php/Buy/manufacturerList?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_manufacturer` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` ORDER BY mf_id desc LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2017-05-16T12:24:58+08:00 ] 127.0.0.1 /admin.php/Index/remind
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003117s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2017-05-16T14:12:01+08:00 ] 127.0.0.1 /admin.php/Device/lookup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2017-05-16T14:12:02+08:00 ] 127.0.0.1 /admin.php/Device/deviceList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2017-05-16T14:12:02+08:00 ] 127.0.0.1 /admin.php/Device/deviceList?p=1&start=&end=&dc=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sbgl_device` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_device` LEFT JOIN sbgl_device_class on sbgl_device.dv_pid=sbgl_device_class.dc_id  ORDER BY dv_time desc,dv_identifier desc LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-16T14:23:52+08:00 ] 127.0.0.1 /admin.php/Device/deviceClassList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: public E:\sbgl\Tools\AdminController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','50','51','52','53','54','55','56','57','58','59','60','61','81','32','33','34','35','36','37','41','42','77','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','39','40','46','47','48','49')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device_class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003265s ]
+

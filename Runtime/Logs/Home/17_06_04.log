@@ -1,0 +1,33 @@
+[ 2017-06-04T11:03:30+08:00 ] 127.0.0.1 /index.php/Index/backPwd
+ERR: 参数错误或者未定义:stu_id
+
+[ 2017-06-04T11:03:39+08:00 ] 127.0.0.1 /index.php/Index/backPwd/stu_id
+ERR: 参数错误或者未定义:stu_id
+
+[ 2017-06-04T11:03:45+08:00 ] 127.0.0.1 /index.php/Index/backPwd/stu_id/151110192
+ERR: 参数错误或者未定义:pwd
+
+[ 2017-06-04T11:03:56+08:00 ] 127.0.0.1 /index.php/Index/backPwd/stu_id/151110192/pwd/qwe13729389428
+ERR: 参数错误或者未定义:newPwd
+
+[ 2017-06-04T11:04:03+08:00 ] 127.0.0.1 /index.php/Index/backPwd/stu_id/151110192/pwd/qwe13729389428/newPwd/
+ERR: 参数错误或者未定义:newPwd
+
+[ 2017-06-04T11:25:17+08:00 ] 127.0.0.1 /index.php/Index/backPwd/stu_id/151110192/pwd/qwe13729389428/8526
+ERR: 参数错误或者未定义:newPwd
+
+[ 2017-06-04T16:37:35+08:00 ] 127.0.0.1 /index.php/Device/getInformation/session_id/1mu7al7g5918ju629o6v30r782/signature/68baba5b864350be716fab3c35168253
+ERR: 参数错误或者未定义:identifier
+
+[ 2017-06-04T16:37:47+08:00 ] 127.0.0.1 /index.php/Device/getInformation/identifier/20170203/session_id/1mu7al7g5918ju629o6v30r782/signature/68baba5b864350be716fab3c35168253
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `dc_name` FROM `sbgl_device_class` WHERE ( dc_id= ) LIMIT 1  
+
+[ 2017-06-04T22:12:48+08:00 ] 127.0.0.1 /index.php/Device/getBrRp/session_id/jc8jbov1e1qiuh83onev275iq4/signature/970ca90c4dd3dba6c40a3c95491257c2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `dc_name` FROM `sbgl_device_class` WHERE ( dc_id= ) LIMIT 1  
+
+[ 2017-06-04T22:17:53+08:00 ] 127.0.0.1 /index.php/Device/getBrRp/session_id/jc8jbov1e1qiuh83onev275iq4/signature/970ca90c4dd3dba6c40a3c95491257c2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `dc_name` FROM `sbgl_device_class` WHERE ( dc_id= ) LIMIT 1  
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>
+            设备管理系统
+        </title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="<{$smarty.const.__PUBLIC__}>/Admin/css/x-admin.css" media="all">
+    </head>
+
+    <body>
+        <div class="x-body">
+            <form class="layui-form">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>设备编号
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="rp_device_identifier" required=""
+                               autocomplete="off" class="layui-input" value="<{$list.rp_device_identifier}>">
+                        <input type="hidden" name="rp_id"
+                               autocomplete="off" class="layui-input" value="<{$list.rp_id}>">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>位置描述
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="rp_location" required=""
+                               autocomplete="off" class="layui-input" value="<{$list.rp_location}>">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        <span class="x-red">*</span>故障描述
+                    </label>
+                    <div class="layui-input-inline">
+                        <textarea name="rp_matter"  class="layui-textarea"><{$list.rp_matter}></textarea>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>报修时间
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="rp_time" required=""
+                               autocomplete="off" class="layui-input" value="<{$list.rp_time|date_format:"%Y-%m-%d"}>">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>报修人
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" disabled
+                               autocomplete="off" class="layui-input" value="<{$list.rp_person}>">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        <span class="x-red">*</span>审核状态
+                    </label>
+                    <div class="layui-input-inline">
+                        <select name="rp_status">
+                            <option value="1" <{if $list.rp_status==1}> selected <{/if}> >待审核</option>
+                            <option value="2" <{if $list.rp_status==2}> selected <{/if}> >通过审核</option>
+                            <option value="3" <{if $list.rp_status==3}> selected <{/if}> >未通过审核</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        维修状态
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" disabled
+                               autocomplete="off" class="layui-input"  value="<{$list.rp_solve_status}>">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        维修人
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" disabled
+                               autocomplete="off" class="layui-input"  value="<{$list.rp_solve_user}>">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        方法描述
+                    </label>
+                    <div class="layui-input-inline">
+                        <textarea  class="layui-textarea" disabled><{$list.rp_solve}></textarea>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        维修时间
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" disabled
+                               autocomplete="off" class="layui-input" value="<{$list.rp_solve_time|date_format:"%Y-%m-%d"}>" >
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                    </label>
+                    <button  class="layui-btn" lay-filter="add" lay-submit="">
+                        修改
+                    </button>
+                </div>
+            </form>
+        </div>
+        <script src="<{$smarty.const.__PUBLIC__}>/Admin/lib/layui/layui.js" charset="utf-8">
+        </script>
+        <script src="<{$smarty.const.__PUBLIC__}>/Admin/js/x-layui.js" charset="utf-8">
+        </script>
+        <script>
+            layui.use(['form', 'layer'], function () {
+                $ = layui.jquery;
+                var form = layui.form()
+                        , layer = layui.layer;
+
+                //监听提交
+                form.on('submit(add)', function (data) {
+                    $.post("<{$smarty.const.__CONTROLLER__}>/reviseRepair", data['field'],
+                            function (result) {
+                                if (result.status) {
+                                    layer.alert(result.msg, {icon: 6}, function () {
+                                        // 获得frame索引
+                                        var index = parent.layer.getFrameIndex(window.name);
+                                        //关闭当前frame
+                                        parent.layer.close(index);
+                                        parent.self.location.reload();
+                                    });
+                                } else {
+                                    layer.alert(result.msg, {icon: 6});
+                                }
+                            });
+                    return false;
+                });
+            });
+        </script>
+    </body>
+
+</html>

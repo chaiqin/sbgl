@@ -1,0 +1,12 @@
+[ 2017-03-29T17:32:26+08:00 ] 127.0.0.1 /admin.php/Common
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+ERR: 无法加载模块:Common
+
+[ 2017-03-29T20:15:32+08:00 ] 127.0.0.1 /admin.php/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+ERR: 无法加载模块:Welcome
+

@@ -1,0 +1,289 @@
+[ 2017-05-31T11:57:26+08:00 ] 127.0.0.1 /index.php/Index/login/stu_id/151110192/pwd/admin123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sbgl_user` WHERE ( user='151110192' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-31T11:58:23+08:00 ] 127.0.0.1 /index.php/MachineRoom/getLog/session_id/tibve0lf0ltuuleg6sfkg6qds1/signature/3c5fe8829166bc0aa492662b7d64f640
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_machine_room_log` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Home\Controller\MachineRoomController.class.php 第 11 行.
+SQL: SELECT `mrl_time`,`mr_room`,`mrl_contents` FROM `sbgl_machine_room_log` LEFT JOIN sbgl_machine_room ON sbgl_machine_room_log.mrl_place=sbgl_machine_room.mr_id  ORDER BY mrl_time desc  [ RunTime:0.0010s ]
+
+[ 2017-05-31T11:58:54+08:00 ] 127.0.0.1 /index.php/MachineRoom/getLog/session_id/tibve0lf0ltuuleg6sfkg6qds1/signature/3c5fe8829166bc0aa492662b7d64f640
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_machine_room_log` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Home\Controller\MachineRoomController.class.php 第 11 行.
+SQL: SELECT `mrl_time`,`mr_room`,`mrl_contents` FROM `sbgl_machine_room_log` LEFT JOIN sbgl_machine_room ON sbgl_machine_room_log.mrl_place=sbgl_machine_room.mr_id  ORDER BY mrl_time desc  [ RunTime:0.0005s ]
+
+[ 2017-05-31T11:59:16+08:00 ] 127.0.0.1 /index.php/MachineRoom/getLog/session_id/tibve0lf0ltuuleg6sfkg6qds1/signature/3c5fe8829166bc0aa492662b7d64f640
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_machine_room_log` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Home\Controller\MachineRoomController.class.php 第 11 行.
+SQL: SELECT `mrl_time`,`mr_room`,`mrl_contents` FROM `sbgl_machine_room_log` LEFT JOIN sbgl_machine_room ON sbgl_machine_room_log.mrl_place=sbgl_machine_room.mr_id  ORDER BY mrl_time desc  [ RunTime:0.0005s ]
+
+[ 2017-05-31T12:06:58+08:00 ] 127.0.0.1 /index.php/MachineRoom/getLog/session_id/tibve0lf0ltuuleg6sfkg6qds1/signature/3c5fe8829166bc0aa492662b7d64f640
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_machine_room_log` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Home\Controller\MachineRoomController.class.php 第 11 行.
+SQL: SELECT `mrl_time`,`mr_room`,`mrl_contents` FROM `sbgl_machine_room_log` LEFT JOIN sbgl_machine_room ON sbgl_machine_room_log.mrl_place=sbgl_machine_room.mr_id  ORDER BY mrl_time desc  [ RunTime:0.0004s ]
+
+[ 2017-05-31T21:10:14+08:00 ] 127.0.0.1 /index.php/Index/login/stu_id/151110192/pwd/admin123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003417s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sbgl_user` WHERE ( user='151110192' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-31T21:10:50+08:00 ] 127.0.0.1 /index.php/MachineRoom/getLog/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_machine_room_log` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Home\Controller\MachineRoomController.class.php 第 11 行.
+SQL: SELECT `mrl_time`,`mr_room`,`mrl_contents` FROM `sbgl_machine_room_log` LEFT JOIN sbgl_machine_room ON sbgl_machine_room_log.mrl_place=sbgl_machine_room.mr_id  ORDER BY mrl_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2017-05-31T21:11:06+08:00 ] 127.0.0.1 /index.php/MachineRoom/getLog/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_machine_room_log` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Home\Controller\MachineRoomController.class.php 第 11 行.
+SQL: SELECT `mrl_time`,`mr_room`,`mrl_contents` FROM `sbgl_machine_room_log` LEFT JOIN sbgl_machine_room ON sbgl_machine_room_log.mrl_place=sbgl_machine_room.mr_id  ORDER BY mrl_time desc LIMIT 0,2   [ RunTime:0.0005s ]
+
+[ 2017-05-31T21:11:12+08:00 ] 127.0.0.1 /index.php/MachineRoom/getLog/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_machine_room_log` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: p E:\sbgl\Home\Controller\MachineRoomController.class.php 第 11 行.
+SQL: SELECT `mrl_time`,`mr_room`,`mrl_contents` FROM `sbgl_machine_room_log` LEFT JOIN sbgl_machine_room ON sbgl_machine_room_log.mrl_place=sbgl_machine_room.mr_id  ORDER BY mrl_time desc LIMIT 0,10   [ RunTime:0.0008s ]
+
+[ 2017-05-31T21:33:40+08:00 ] 127.0.0.1 /index.php/Message/getDcMf/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=2 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: dc_name E:\sbgl\Home\Controller\MessageController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=5 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: dc_name E:\sbgl\Home\Controller\MessageController.class.php 第 22 行.
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=15 )  [ RunTime:0.0003s ]
+SQL: SELECT `mf_name` FROM `sbgl_manufacturer` ORDER BY mf_id desc  [ RunTime:0.0004s ]
+
+[ 2017-05-31T21:35:10+08:00 ] 127.0.0.1 /index.php/Message/getDcMf/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=15 )  [ RunTime:0.0003s ]
+SQL: SELECT `mf_name` FROM `sbgl_manufacturer` ORDER BY mf_id desc  [ RunTime:0.0002s ]
+
+[ 2017-05-31T21:35:51+08:00 ] 127.0.0.1 /index.php/Message/getDcMf/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=15 )  [ RunTime:0.0002s ]
+
+[ 2017-05-31T21:36:25+08:00 ] 127.0.0.1 /index.php/Message/getDcMf/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=15 )  [ RunTime:0.0002s ]
+
+[ 2017-05-31T21:37:13+08:00 ] 127.0.0.1 /index.php/Message/getDcMf/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=5 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=15 )  [ RunTime:0.0003s ]
+
+[ 2017-05-31T21:38:29+08:00 ] 127.0.0.1 /index.php/Message/getDcMf/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=15 )  [ RunTime:0.0002s ]
+
+[ 2017-05-31T21:38:46+08:00 ] 127.0.0.1 /index.php/Message/getDcMf/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=15 )  [ RunTime:0.0002s ]
+
+[ 2017-05-31T21:38:47+08:00 ] 127.0.0.1 /index.php/Message/getDcMf/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=15 )  [ RunTime:0.0002s ]
+
+[ 2017-05-31T21:38:49+08:00 ] 127.0.0.1 /index.php/Message/getDcMf/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=15 )  [ RunTime:0.0002s ]
+
+[ 2017-05-31T21:40:08+08:00 ] 127.0.0.1 /index.php/Message/getDcMf/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=5 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_manufacturer` WHERE ( mf_pid=15 )  [ RunTime:0.0002s ]
+
+[ 2017-05-31T22:44:36+08:00 ] 127.0.0.1 /index.php/Device/deviceReturn/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+ERR: 参数错误或者未定义:identifier
+
+[ 2017-05-31T22:44:49+08:00 ] 127.0.0.1 /index.php/Device/deviceReturn/identifier/20170528/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+ERR: 参数错误或者未定义:remark
+
+[ 2017-05-31T22:45:04+08:00 ] 127.0.0.1 /index.php/Device/deviceReturn/identifier/20170528/remark/%E8%89%AF%E5%A5%BD/session_id/k8th3bk6a44emohtrojrhs6uv7/signature/bf83d1428b411daad2e68a29a080151b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sbgl_borrow` [ RunTime:0.0014s ]
+SQL: UPDATE `sbgl_borrow` SET `br_actual_time`='1496241904',`br_remark`='良好',`br_reviewer`='151110192' WHERE `br_device_identifier` = 20170528 AND `br_actual_time` is null [ RunTime:0.0229s ]
+

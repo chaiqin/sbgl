@@ -1,0 +1,30 @@
+/*表格背景颜色*/
+.bgcolor{
+    background-color:#E8E8FF;
+}
+
+/*分页*/
+.divide{
+    width:100%;
+    margin:20px auto;
+    text-align:center;
+}
+
+/*设备查询*/
+.lookup{
+    width: 350px;
+    margin: 0 0 10px 0;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+/*设备列表条件查询框*/
+.bot{
+    margin-bottom: 2px;
+}

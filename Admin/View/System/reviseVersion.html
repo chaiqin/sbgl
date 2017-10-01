@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>
+            设备管理系统
+        </title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="<{$smarty.const.__PUBLIC__}>/Admin/css/x-admin.css" media="all">
+    </head>
+
+    <body>
+        <div class="x-body">
+            <form class="layui-form" action="<{$smarty.const.__SELF__}>" enctype="multipart/form-data" method="post">
+                <div class="layui-form-item">
+                    <label for="L_email" class="layui-form-label">
+                        <span class="x-red">*</span>版本类型
+                    </label>
+                    <div class="layui-input-inline">
+                        <select name="client_type">
+                            <option value="1"  <{if $list.client_type==1}>selected<{/if}> >IOS</option>
+                            <option value="2"  <{if $list.client_type==2}>selected<{/if}> >ANDROID</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_email" class="layui-form-label">
+                        <span class="x-red">*</span>版本版号
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="client_version" required=""
+                               autocomplete="off" class="layui-input" value="<{$list.client_version}>">
+                        <input type="hidden" name="id" autocomplete="off" class="layui-input" value="<{$list.id}>">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_email" class="layui-form-label">
+                        <span class="x-red">*</span>下载地址
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text"  autocomplete="off" class="layui-input" value="<{$list.client_link}>">
+                    </div>
+                </div> 
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                       重新上传
+                    </label>
+                    <div>
+                        <input type="file" name="source" >
+                    </div>
+                </div> 
+                <div class="layui-form-item">
+                    <label for="L_email" class="layui-form-label">
+                        <span class="x-red">*</span>更新说明
+                    </label>
+                    <div class="layui-input-inline" >
+                        <textarea name="update_note"  class="layui-textarea"><{$list.update_note}></textarea>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_email" class="layui-form-label">
+                        <span class="x-red">*</span>更新要求
+                    </label>
+                    <div class="layui-input-inline">
+                        <select name="is_required">
+                            <option value="0" <{if $list.is_required==0}>selected<{/if}> >选择更新</option>
+                            <option value="1" <{if $list.is_required==1}>selected<{/if}> >强制更新</option>
+                        </select>
+                    </div>
+                </div> 
+                <div class="layui-form-item">
+                    <label for="L_email" class="layui-form-label">
+                        <span class="x-red">*</span>更新时间
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text"  name="time" required=""
+                               autocomplete="off" class="layui-input" value="<{$list.time|date_format:"%Y-%m-%d"}>">
+                    </div>
+                </div> 
+                <div class="layui-form-item">
+                    <label for="L_repass" class="layui-form-label">
+                    </label>
+                    <button  class="layui-btn" lay-filter="add" lay-submit="">
+                        修改
+                    </button>
+                </div>
+            </form>
+        </div>
+        <script src="<{$smarty.const.__PUBLIC__}>/Admin/lib/layui/layui.js" charset="utf-8">
+        </script>
+        <script src="<{$smarty.const.__PUBLIC__}>/Admin/js/x-layui.js" charset="utf-8">
+        </script>
+        <script>
+            layui.use(['laydate', 'form', 'layer'], function () {
+                $ = layui.jquery;
+                var form = layui.form()
+                        , layer = layui.layer;
+                laydate = layui.laydate;//日期插件
+
+
+                var start = {
+                    min: '1970-01-01 00:00:01'
+                    , max: '2038-01-09 03:14:07'
+                    , istoday: false
+                    , choose: function (datas) {
+                        end.min = datas; //开始日选好后，重置结束日的最小日期
+                        end.start = datas //将结束日的初始值设定为开始日
+                    }
+                };
+
+                document.getElementById('LAY_demorange_s').onclick = function () {
+                    start.elem = this;
+                    laydate(start);
+                }
+
+                var buy = {
+                    min: '1970-01-01 00:00:01'
+                    , max: '2038-01-09 03:14:07'
+                    , istoday: false
+                    , choose: function (datas) {
+                        end.min = datas; //开始日选好后，重置结束日的最小日期
+                        end.start = datas //将结束日的初始值设定为开始日
+                    }
+                };
+
+                document.getElementById('LAY_demorange_t').onclick = function () {
+                    buy.elem = this;
+                    laydate(buy);
+                }
+            });
+        </script>
+    </body>
+
+</html>

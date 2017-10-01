@@ -1,0 +1,196 @@
+[ 2017-05-23T13:51:08+08:00 ] 192.168.199.180 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+ERR: 非法操作:index
+
+[ 2017-05-23T13:52:05+08:00 ] 192.168.199.180 /index.php/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+ERR: 无法加载控制器:GetRoom
+
+[ 2017-05-23T13:52:15+08:00 ] 192.168.199.180 /index.php/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+ERR: 无法加载控制器:GetRoom
+
+[ 2017-05-23T13:54:44+08:00 ] 192.168.199.180 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+ERR: 非法操作:index
+
+[ 2017-05-23T13:55:11+08:00 ] 127.0.0.1 /index.php/Index/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `sbgl_machine_room` [ RunTime:0.0029s ]
+SQL: SELECT `mr_room` FROM `sbgl_machine_room`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: mr E:\sbgl\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2017-05-23T13:55:14+08:00 ] 127.0.0.1 /index.php/Index/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `sbgl_machine_room` [ RunTime:0.0009s ]
+SQL: SELECT `mr_room` FROM `sbgl_machine_room`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: mr E:\sbgl\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2017-05-23T13:57:33+08:00 ] 127.0.0.1 /index.php/Index/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `sbgl_machine_room` [ RunTime:0.0009s ]
+SQL: SELECT `mr_room` FROM `sbgl_machine_room`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: mr E:\sbgl\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2017-05-23T13:57:53+08:00 ] 127.0.0.1 /index.php/Index/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `sbgl_machine_room` [ RunTime:0.0008s ]
+SQL: SELECT `mr_room` FROM `sbgl_machine_room`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: mr E:\sbgl\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-05-23T13:58:23+08:00 ] 127.0.0.1 /index.php/Index/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `sbgl_machine_room` [ RunTime:0.0009s ]
+SQL: SELECT `mr_room` FROM `sbgl_machine_room`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: mr E:\sbgl\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2017-05-23T13:59:29+08:00 ] 127.0.0.1 /index.php/Index/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `sbgl_machine_room` [ RunTime:0.0009s ]
+SQL: SELECT `mr_room` FROM `sbgl_machine_room`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: mr E:\sbgl\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2017-05-23T14:01:18+08:00 ] 127.0.0.1 /index.php/Index/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `sbgl_machine_room` [ RunTime:0.0006s ]
+SQL: SELECT `mr_room` FROM `sbgl_machine_room`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: mr E:\sbgl\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-05-23T14:03:44+08:00 ] 127.0.0.1 /index.php/Index/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `sbgl_machine_room` [ RunTime:0.0009s ]
+SQL: SELECT `mr_room` FROM `sbgl_machine_room`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: mr E:\sbgl\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-05-23T14:12:03+08:00 ] 127.0.0.1 /index.php/Index/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `sbgl_machine_room` [ RunTime:0.0010s ]
+SQL: SELECT `mr_room` FROM `sbgl_machine_room`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: mr E:\sbgl\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2017-05-23T16:31:34+08:00 ] 127.0.0.1 /index.php/Index/getRoom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `sbgl_machine_room` [ RunTime:0.0014s ]
+SQL: SELECT `mr_room` FROM `sbgl_machine_room`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: mr E:\sbgl\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2017-05-23T20:19:36+08:00 ] 127.0.0.1 /index.php/MachineRoom/getLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `sbgl_machine_room_log` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_machine_room_log` ORDER BY mrl_time desc  [ RunTime:0.0003s ]
+
+[ 2017-05-23T22:10:33+08:00 ] 127.0.0.1 /index.php/Device/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sbgl_device_class`  [ RunTime:0.0003s ]
+

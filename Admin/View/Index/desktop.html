@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            X-admin v1.0
+        </title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="<{$smarty.const.__PUBLIC__}>/Admin/css/x-admin.css" media="all">
+    </head>
+    <body>
+        <div class="x-body">
+            <span style="font-size:17px;color:#009688;"><p>登录次数：<{$smarty.session.log_number}> </p>
+                <p>上次登录IP：<{$smarty.session.log_ip}>&nbsp;&nbsp;&nbsp;上次登录时间：<{$smarty.session.log_time|date_format:"%Y-%m-%d %T"}></p></span>
+            <fieldset class="layui-elem-field layui-field-title site-title">
+              <legend><a name="default">信息统计</a></legend>
+            </fieldset>
+            <table class="layui-table">
+                <thead>
+                    <tr>
+                        <th>统计</th>
+                        <th>设备</th>
+                        <th>设备采购</th>
+                        <th>设备维修</th>
+                        <th>设备出借</th>
+                        <th>用户</th>
+                        <th>管理员</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>总数</td>
+                        <td><{$dvArray[0]}></td>
+                        <td><{$byArray[0]}></td>
+                        <td><{$rpArray[0]}></td>
+                        <td><{$brArray[0]}></td>
+                        <td><{$usArray[0]}></td>
+                        <td><{$amArray[0]}></td>
+                    </tr>
+                    <tr>
+                        <td>今日</td>
+                        <td><{$dvArray[1]}></td>
+                        <td><{$byArray[1]}></td>
+                        <td><{$rpArray[1]}></td>
+                        <td><{$brArray[1]}></td>
+                        <td><{$usArray[1]}></td>
+                        <td><{$amArray[1]}></td>
+                    </tr>
+                    <tr>
+                        <td>昨日</td>
+                        <td><{$dvArray[2]}></td>
+                        <td><{$byArray[2]}></td>
+                        <td><{$rpArray[2]}></td>
+                        <td><{$brArray[2]}></td>
+                        <td><{$usArray[2]}></td>
+                        <td><{$amArray[2]}></td>
+                    </tr>
+                    <tr>
+                        <td>本周</td>
+                        <td><{$dvArray[3]}></td>
+                        <td><{$byArray[3]}></td>
+                        <td><{$rpArray[3]}></td>
+                        <td><{$brArray[3]}></td>
+                        <td><{$usArray[3]}></td>
+                        <td><{$amArray[3]}></td>
+                    </tr>
+                    <tr>
+                        <td>本月</td>
+                        <td><{$dvArray[4]}></td>
+                        <td><{$byArray[4]}></td>
+                        <td><{$rpArray[4]}></td>
+                        <td><{$brArray[4]}></td>
+                        <td><{$usArray[4]}></td>
+                        <td><{$amArray[4]}></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="<{$smarty.const.__PUBLIC__}>/Admin/lib/layui/layui.js" charset="utf-8"></script>
+        <script src="<{$smarty.const.__PUBLIC__}>/Admin/js/x-admin.js"></script>
+    </body>
+</html>

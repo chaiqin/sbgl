@@ -1,0 +1,51 @@
+[ 2017-05-13T16:27:50+08:00 ] 127.0.0.1 /index.php/Message/getDevice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+ERR: 参数错误或者未定义:identifier
+
+[ 2017-05-13T16:28:05+08:00 ] 127.0.0.1 /index.php/Message/getDevice/identifier/20170513
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `sbgl_device` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_device` WHERE `dv_identifier` = 20170513 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-13T16:28:21+08:00 ] 127.0.0.1 /index.php/Message/getDevice/identifier/20542465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `sbgl_device` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_device` WHERE `dv_identifier` = 20542465 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0005s ]
+SQL: SELECT `dc_name` FROM `sbgl_device_class` WHERE ( dc_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `rp_solve_status` FROM `sbgl_repair` WHERE ( rp_status=2 and rp_solve_status!=2 and rp_device_identifier=20542465 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `mf_name` FROM `sbgl_manufacturer` WHERE ( mf_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-13T16:28:57+08:00 ] 127.0.0.1 /index.php/Message/getDevice/identifier/20542465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `sbgl_device` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `sbgl_device` WHERE `dv_identifier` = 20542465 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_device_class` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sbgl_manufacturer` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0006s ]
+SQL: SELECT `dc_name` FROM `sbgl_device_class` WHERE ( dc_id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `rp_solve_status` FROM `sbgl_repair` WHERE ( rp_status=2 and rp_solve_status!=2 and rp_device_identifier=20542465 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `mf_name` FROM `sbgl_manufacturer` WHERE ( mf_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+

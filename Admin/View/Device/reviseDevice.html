@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>
+            设备管理系统
+        </title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="<{$smarty.const.__PUBLIC__}>/Admin/css/x-admin.css" media="all">
+    </head>
+
+    <body>
+        <div class="x-body">
+            <form class="layui-form">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>设备编号
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="dv_identifier" disabled
+                               autocomplete="off" class="layui-input" value="<{$list.dv_identifier}>">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>设备分类
+                    </label>
+                    <div class="layui-input-inline">
+                        <select name="dv_dcid">
+                            <{section name=n loop=$dclist}>
+                            <option value="<{$dclist[n].dc_id}>" <{if $dclist[n].dc_id==$list.dv_dcid}> selected <{/if}> ><{$dclist[n].dc_name}></option>
+                            <{/section}>	
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_email" class="layui-form-label">
+                        生产厂商
+                    </label>
+                    <div class="layui-input-inline">
+                        <select name="dv_manufacturer_id">
+                            <{section name=n loop=$mflist}>
+                            <option value="<{$mflist[n].mf_id}>" <{if $mflist[n].mf_id==$list.dv_manufacturer_id}> selected <{/if}> ><{$mflist[n].mf_name}></option>
+                            <{/section}>	
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>设备型号
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="dv_version" required=""
+                               autocomplete="off" class="layui-input" value="<{$list.dv_version}>">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>设备价格
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="dv_price" required=""
+                               autocomplete="off" class="layui-input" value="<{$list.dv_price}>">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        所在机房
+                    </label>
+                    <div class="layui-input-inline">
+                        <select name="dv_room_id">
+                            <option value="0">--请选择--</option>
+                            <{section name=n loop=$mrlist}>
+                            <option value="<{$mrlist[n].mr_id}>" <{if $mrlist[n].mr_id==$list.dv_room_id}> selected <{/if}> ><{$mrlist[n].mr_room}></option>
+                            <{/section}>	
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        位置描述
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="dv_place"
+                               autocomplete="off" class="layui-input"  value="<{$list.dv_place}>">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>添加时间
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="time" name="dv_time" value="<{$list.dv_time|date_format:'%Y-%m-%d'}>" required=""
+                               autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                    </label>
+                    <button  class="layui-btn" lay-filter="add" lay-submit="">
+                        修改
+                    </button>
+                </div>
+            </form>
+        </div>
+        <script src="<{$smarty.const.__PUBLIC__}>/Admin/lib/layui/layui.js" charset="utf-8">
+        </script>
+        <script src="<{$smarty.const.__PUBLIC__}>/Admin/js/x-layui.js" charset="utf-8">
+        </script>
+        <script>
+            layui.use(['laydate', 'form', 'layer'], function () {
+                $ = layui.jquery;
+                var form = layui.form()
+                        , layer = layui.layer;
+                laydate = layui.laydate;//日期插件
+
+                //监听提交
+                form.on('submit(add)', function (data) {
+                    $.post("<{$smarty.const.__CONTROLLER__}>/reviseDevice", data['field'],
+                            function (result) {
+                                if (result.status) {
+                                    layer.alert(result.msg, {icon: 6}, function () {
+                                        // 获得frame索引
+                                        var index = parent.layer.getFrameIndex(window.name);
+                                        //关闭当前frame
+                                        parent.layer.close(index);
+                                        parent.self.location.reload();
+                                    });
+                                } else {
+                                    layer.alert(result.msg, {icon: 6});
+                                }
+                            });
+                    return false;
+                });
+
+                var start = {
+                    min: '1970-01-01 00:00:01'
+                    , max: '2038-01-09 03:14:07'
+                    , istoday: false
+                    , choose: function (datas) {
+                        end.min = datas; //开始日选好后，重置结束日的最小日期
+                        end.start = datas //将结束日的初始值设定为开始日
+                    }
+                };
+
+                document.getElementById('time').onclick = function () {
+                    start.elem = this;
+                    laydate(start);
+                }
+
+            });
+        </script>
+    </body>
+
+</html>

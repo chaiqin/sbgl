@@ -1,0 +1,562 @@
+[ 2017-05-20T11:54:43+08:00 ] 127.0.0.1 /index.php/Device/getRepair
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003731s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sbgl_repair` WHERE ( rp_solve_status!=2 ) ORDER BY rp_time desc  [ RunTime:0.0010s ]
+
+[ 2017-05-20T13:51:48+08:00 ] 127.0.0.1 /index.php/Device/checkStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+ERR: 参数错误或者未定义:identifier
+
+[ 2017-05-20T13:51:59+08:00 ] 127.0.0.1 /index.php/Device/checkStatus/identifier
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+ERR: 参数错误或者未定义:identifier
+
+[ 2017-05-20T13:52:03+08:00 ] 127.0.0.1 /index.php/Device/checkStatus/identifier/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+ERR: 参数错误或者未定义:status
+
+[ 2017-05-20T13:52:13+08:00 ] 127.0.0.1 /index.php/Device/checkStatus/identifier/1/status/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0014s ]
+
+[ 2017-05-20T13:52:16+08:00 ] 127.0.0.1 /index.php/Device/checkStatus/identifier/1/status/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0009s ]
+
+[ 2017-05-20T13:54:10+08:00 ] 127.0.0.1 /index.php/Device/checkStatus/identifier/1/status/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0011s ]
+ERR: 1054:Unknown column 'identifier' in 'where clause'
+ [ SQL语句 ] : UPDATE `sbgl_repair` SET `rp_status`='2' WHERE ( identifier=1 )
+ERR: 1054:Unknown column 'identifier' in 'where clause'
+ [ SQL语句 ] : UPDATE `sbgl_repair` SET `rp_status`='2' WHERE ( identifier=1 )
+
+[ 2017-05-20T13:54:37+08:00 ] 127.0.0.1 /index.php/Device/checkStatus/identifier/1/status/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0007s ]
+SQL: UPDATE `sbgl_repair` SET `rp_status`='2' WHERE ( rp_device_identifier=1 ) [ RunTime:0.0004s ]
+
+[ 2017-05-20T13:58:00+08:00 ] 127.0.0.1 /index.php/Device/checkStatus/identifier/20170103/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0008s ]
+SQL: UPDATE `sbgl_repair` SET `rp_status`='1' WHERE ( rp_device_identifier=20170103 ) [ RunTime:0.0229s ]
+
+[ 2017-05-20T14:11:31+08:00 ] 127.0.0.1 /index.php/Device/checkStatus/identifier/20170103/status/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0009s ]
+SQL: UPDATE `sbgl_repair` SET `rp_status`='3' WHERE ( rp_device_identifier=20170103 ) [ RunTime:0.0004s ]
+
+[ 2017-05-20T14:11:39+08:00 ] 127.0.0.1 /index.php/Device/checkStatus/identifier/20170103/status/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0013s ]
+SQL: UPDATE `sbgl_repair` SET `rp_status`='2' WHERE ( rp_device_identifier=20170103 ) [ RunTime:0.0004s ]
+
+[ 2017-05-20T14:18:31+08:00 ] 127.0.0.1 /index.php/Device/getInformation/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+ERR: 参数错误或者未定义:identifier
+
+[ 2017-05-20T14:18:38+08:00 ] 127.0.0.1 /index.php/Device/getRepair
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_repair` WHERE ( rp_status!=2 and rp_solve_status!=2 ) ORDER BY rp_time desc  [ RunTime:0.0003s ]
+
+[ 2017-05-20T14:24:18+08:00 ] 127.0.0.1 /index.php/Device/getRepair
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0008s ]
+SQL: SELECT `rp_device_identifier`,`rp_location`,`rp_matter`,`rp_time`,`rp_person`,`rp_status`,`rp_solve_status` FROM `sbgl_repair` WHERE ( rp_status!=2 and rp_solve_status!=2 ) ORDER BY rp_time desc  [ RunTime:0.0003s ]
+
+[ 2017-05-20T14:26:22+08:00 ] 127.0.0.1 /index.php/Device/borrow/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+ERR: 参数错误或者未定义:identifier
+
+[ 2017-05-20T14:32:17+08:00 ] 127.0.0.1 /index.php/Device/borrow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+ERR: 参数错误或者未定义:identifier
+
+[ 2017-05-20T14:37:30+08:00 ] 127.0.0.1 /index.php/Device/checkStatus/identifier/20170103/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0007s ]
+SQL: UPDATE `sbgl_repair` SET `rp_status`='1' WHERE ( rp_device_identifier=20170103 ) [ RunTime:0.0004s ]
+
+[ 2017-05-20T14:38:18+08:00 ] 127.0.0.1 /index.php/Device/checkStatus/identifier/20170103/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0009s ]
+SQL: UPDATE `sbgl_repair` SET `rp_status`='1' WHERE ( rp_device_identifier=20170103 ) [ RunTime:0.0006s ]
+
+[ 2017-05-20T15:09:53+08:00 ] 127.0.0.1 /index.php/Device/confirm/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006414s ]
+ERR: 参数错误或者未定义:identifier
+
+[ 2017-05-20T15:10:00+08:00 ] 127.0.0.1 /index.php/Device/confirm/identifier/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006221s ]
+ERR: 参数错误或者未定义:identifier
+
+[ 2017-05-20T15:10:35+08:00 ] 127.0.0.1 /index.php/Device/confirm/identifier/20170504/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005199s ]
+ERR: 参数错误或者未定义:status
+
+[ 2017-05-20T15:11:30+08:00 ] 127.0.0.1 /index.php/Device/confirm/identifier/20170504/status/2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006957s ]
+ERR: 参数错误或者未定义:person
+
+[ 2017-05-20T15:11:35+08:00 ] 127.0.0.1 /index.php/Device/confirm/identifier/20170504/status/2/person/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000226s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008546s ]
+ERR: 参数错误或者未定义:person
+
+[ 2017-05-20T15:12:19+08:00 ] 127.0.0.1 /index.php/Device/confirm/identifier/20170504/status/2/person/188/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005572s ]
+ERR: 参数错误或者未定义:solve
+
+[ 2017-05-20T15:12:24+08:00 ] 127.0.0.1 /index.php/Device/confirm/identifier/20170504/status/2/person/188/solve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010230s ]
+ERR: 参数错误或者未定义:solve
+
+[ 2017-05-20T15:12:30+08:00 ] 127.0.0.1 /index.php/Device/confirm/identifier/20170504/status/2/person/188/solve/%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005815s ]
+ERR: 参数错误或者未定义:time
+
+[ 2017-05-20T15:13:04+08:00 ] 127.0.0.1 /index.php/Device/confirm/identifier/20170504/status/2/person/188/solve/%E6%98%AF/time/20170504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005734s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: rp_solve E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-05-20T15:14:13+08:00 ] 127.0.0.1 /index.php/Device/confirm/identifier/20170504/status/2/person/151110192/solve/%E6%98%AF/time/20170504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006240s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: rp_solve E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-05-20T15:17:30+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/2/person/151110192/solve/%E6%98%AF/time/20170504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007276s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: rp_solve E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '15' for key 'PRIMARY'
+ [ SQL语句 ] : UPDATE `sbgl_repair` SET `rp_id`='15',`rp_solve_status`='2'
+ERR: 1062:Duplicate entry '15' for key 'PRIMARY'
+ [ SQL语句 ] : UPDATE `sbgl_repair` SET `rp_id`='15',`rp_solve_status`='2'
+
+[ 2017-05-20T15:19:13+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/2/person/151110192/solve/%E6%98%AF/time/20170504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000329s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015056s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: rp_solve E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='2' WHERE `rp_id` = 15 [ RunTime:0.0037s ]
+
+[ 2017-05-20T15:24:16+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/2/person/151110192/solve/%E6%98%AF/time/20170504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000634s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005581s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: rp_solve E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='2' WHERE `rp_id` = 15 [ RunTime:0.0015s ]
+
+[ 2017-05-20T15:25:09+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/4/person/151110192/solve/%E6%98%AF/time/20170504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009003s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: rp_solve E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='4' WHERE `rp_id` = 15 [ RunTime:0.0014s ]
+
+[ 2017-05-20T15:26:48+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008722s ]
+ERR: 参数错误或者未定义:status
+
+[ 2017-05-20T15:26:59+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007556s ]
+ERR: 参数错误或者未定义:person
+
+[ 2017-05-20T15:27:14+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/1/person/151110197
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005846s ]
+ERR: 参数错误或者未定义:solve
+
+[ 2017-05-20T15:27:19+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/1/person/151110197/solve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000270s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007868s ]
+ERR: 参数错误或者未定义:solve
+
+[ 2017-05-20T15:27:33+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/1/person/151110197/solve/%E8%A7%A3%E5%86%B3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005611s ]
+ERR: 参数错误或者未定义:time
+
+[ 2017-05-20T15:27:50+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/1/person/151110197/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005774s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: rp_solve E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='1' WHERE `rp_id` = 15 [ RunTime:0.0023s ]
+
+[ 2017-05-20T15:28:54+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/1/person/151110197/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005701s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: rp_solve E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='1' WHERE `rp_id` = 15 [ RunTime:0.0014s ]
+
+[ 2017-05-20T15:30:28+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/1/person/151110197/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005870s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='1',`rp_solve`='解决' WHERE `rp_id` = 15 [ RunTime:0.0022s ]
+
+[ 2017-05-20T15:34:49+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/1/person/151110197/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005804s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='1',`rp_solve_user`='151110197',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0016s ]
+
+[ 2017-05-20T19:51:55+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/2/person/151110197/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='2',`rp_solve_user`='151110197',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0004s ]
+
+[ 2017-05-20T19:53:28+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/2/person/151110197/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='2',`rp_solve_user`='151110197',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0003s ]
+
+[ 2017-05-20T19:54:20+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/2/person/151110197/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='2',`rp_solve_user`='151110197',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0003s ]
+
+[ 2017-05-20T19:55:09+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/3/person/151110197/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='3',`rp_solve_user`='151110197',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0004s ]
+
+[ 2017-05-20T19:55:23+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/1/person/151110197/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='1',`rp_solve_user`='151110197',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0004s ]
+
+[ 2017-05-20T19:55:29+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/2/person/151110197/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='2',`rp_solve_user`='151110197',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0005s ]
+
+[ 2017-05-20T20:01:25+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/2/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='2',`rp_solve_user`='151110198',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0004s ]
+
+[ 2017-05-20T20:01:27+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/2/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='2',`rp_solve_user`='151110198',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0003s ]
+
+[ 2017-05-20T20:01:43+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/2/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='2',`rp_solve_user`='151110197',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0003s ]
+
+[ 2017-05-20T20:01:44+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/2/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='2',`rp_solve_user`='151110197',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0003s ]
+
+[ 2017-05-20T20:02:29+08:00 ] 127.0.0.1 /index.php/Device/confirm/id/15/status/1/solve/%E8%A7%A3%E5%86%B3/time/1495209600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\sbgl\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `sbgl_repair` SET `rp_solve_status`='1',`rp_solve_user`='151110197',`rp_solve`='解决',`rp_solve_time`='1495209600' WHERE `rp_id` = 15 [ RunTime:0.0005s ]
+
+[ 2017-05-20T21:05:39+08:00 ] 127.0.0.1 /index.php/Device/repair
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+ERR: 参数错误或者未定义:identifier
+

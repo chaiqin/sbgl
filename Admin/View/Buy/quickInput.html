@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>
+            设备管理系统
+        </title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="<{$smarty.const.__PUBLIC__}>/Admin/css/x-admin.css" media="all">
+    </head>
+
+    <body>
+        <div class="x-body">
+            <form class="layui-form">
+                <{section name=n loop=$class}>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        <span class="x-red">*</span>设备编号<{$class[n].i}>
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" value="<{$class[n].dv_identifier}>" disabled  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        <span class="x-red">*</span>所在机房
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" value="<{$class[n].mr_room}>" disabled  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        <span class="x-red"></span>位置描述
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" value="<{$class[n].dv_place}>" disabled  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        <span class="x-red"></span>
+                    </label>
+                </div>
+                <{/section}>
+                <{section name=n loop=$remain}>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        <span class="x-red">*</span>设备编号<{$remain[n].i}>
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text"  name="iden" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        <span class="x-red">*</span>所在机房
+                    </label>
+                    <div class="layui-input-inline">
+                        <select name="room">
+                            <option value="">--请选择--</option>
+                            <{section name=m loop=$room}>
+                            <option value="<{$room[m].mr_id}>"><{$room[m].mr_room}></option>
+                            <{/section}>	
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        <span class="x-red"></span>位置描述
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="place"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label  class="layui-form-label">
+                        <span class="x-red"></span>
+                    </label>
+                </div>
+                <{/section}>
+                <div class="layui-form-item">
+                    <label for="L_repass" class="layui-form-label">
+                    </label>
+                    <button  class="layui-btn" lay-filter="add" lay-submit="">
+                        录入
+                    </button>
+                </div>
+            </form>
+        </div>
+        <script src="<{$smarty.const.__PUBLIC__}>/Admin/lib/layui/layui.js" charset="utf-8">
+        </script>
+        <script src="<{$smarty.const.__PUBLIC__}>/Admin/js/x-layui.js" charset="utf-8">
+        </script>
+        <script>
+            layui.use(['laydate', 'form', 'layer'], function () {
+                $ = layui.jquery;
+                var form = layui.form()
+                        , layer = layui.layer;
+                laydate = layui.laydate;//日期插件
+
+                //监听提交
+                form.on('submit(add)', function (data) {
+                    var arro = document.getElementsByName("iden");
+                    var arrt = document.getElementsByName("room");
+                    var arrp = document.getElementsByName("place");
+                    var iden = new Array();
+                    var room = new Array();
+                    var place = new Array();
+                    for (var i = 0; i < arro.length; i++) {
+                        iden[i] = arro[i].value;
+                    }
+                    for (var j = 0; j < arrt.length; j++) {
+                        room[j] = arrt[j].value;
+                    }
+                    for (var k = 0; k < arrp.length; k++) {
+                        place[k] = arrp[k].value;
+                    }
+                    $.post("<{$smarty.const.__CONTROLLER__}>/quickInput", {buyId:<{$buyId}>,first:<{$first}>,iden:iden,room:room,place:place},
+                            function (result) {
+                                if (result.status) {
+                                    layer.alert(result.msg, {icon: 6}, function () {
+                                        // 获得frame索引
+                                        var index = parent.layer.getFrameIndex(window.name);
+                                        //关闭当前frame
+                                        parent.layer.close(index);
+                                    });
+                                } else {
+                                    layer.alert(result.msg, {icon: 6});
+                                }
+                            });
+                    return false;
+                });
+
+
+
+
+            });
+        </script>
+    </body>
+
+</html>
