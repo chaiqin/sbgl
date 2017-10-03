@@ -278,6 +278,7 @@ class DeviceController extends IndexController {
     //设备一键维修
     function quickRepair($identifier, $location, $matter, $solve) {
         $rpmd = new RepairModel();
+		$dvmd = M('Device');
         $info['rp_device_identifier'] = $identifier;
         $info['rp_location'] = $location;
         $info['rp_matter'] = $matter;
@@ -288,9 +289,15 @@ class DeviceController extends IndexController {
         $info['rp_solve_time'] = time();
         $info['rp_status'] = 2;
         $info['rp_solve_status'] = 2;
-
+		
         $data['status'] = 400;
         $data['data'] = '';
+		
+		$device = $dvmd->where("dv_identifier='{$info[rp_device_identifier]}'")->find();
+        if (!$device) {
+           $data['msg'] = '报修设备不存在！';
+           $this->ajaxReturn($data);
+        }
 
         $shu = $rpmd->create($info);
         if ($shu) {
