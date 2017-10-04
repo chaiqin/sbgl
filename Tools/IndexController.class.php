@@ -25,7 +25,7 @@ class IndexController extends Controller {
         $admin_id = '';
         $type = '';
         $verify = '';
-        $sign = CONTROLLER_NAME.ACTION_NAME.$_GET['timestamp'].session('access_key');
+        $sign = $_GET['timestamp'].session('access_key');
         if ($_GET['signature'] == md5($sign)) {
             //请求时间限制
             $service = time();
