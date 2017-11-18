@@ -12,19 +12,6 @@ function icount($num=10) {
     return $i;
 }
 
-//获取ip
-function getIp() {
-    $ip = '';
-    foreach (array('HTTP_CLIENT_IP', 'HTTP_X_FORWARDED_FOR', 'HTTP_FROM', 'REMOTE_ADDR') as $v) {
-        if (isset($_SERVER[$v])) {
-            if (!preg_match('/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/', $_SERVER[$v])) {
-                continue;
-            }
-            $ip = $_SERVER[$v];
-        }
-    }
-    return $ip;
-}
 
 //分割符
 function _sort($_string, $_num) {

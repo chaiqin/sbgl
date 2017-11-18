@@ -1,0 +1,202 @@
+[ 2017-11-18T13:05:07+08:00 ] 127.0.0.1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0007s ]
+
+[ 2017-11-18T13:05:07+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2017-11-18T13:05:07+08:00 ] 127.0.0.1 /admin.php/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001965s ]
+
+[ 2017-11-18T13:23:11+08:00 ] 127.0.0.1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0007s ]
+
+[ 2017-11-18T13:23:11+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2017-11-18T13:23:11+08:00 ] 127.0.0.1 /admin.php/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001659s ]
+
+[ 2017-11-18T13:23:24+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_user` WHERE ( user='151110192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sbgl_user` SET `login_time`='1510982604',`login_ip`='127.0.0.1',`login_number`='17' WHERE `id` = 39 [ RunTime:0.0008s ]
+
+[ 2017-11-18T13:23:24+08:00 ] 127.0.0.1 /admin.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','58','59','60','61','81','91','32','33','34','35','36','37','41','42','50','51','52','53','77','90','62','63','64','65','66','67','68','69','70','89','71','72','73','74','75','76','54','55','56','57','85','86','87','88','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','83','92','94','39','40','46','47','48','49')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `sbgl_node_class` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sbgl_system` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sbgl_system` WHERE ( name='backstage' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( display=1 and id in (30,79,80,58,59,60,61,81,91,32,33,34,35,36,37,41,42,50,51,52,53,77,90,62,63,64,65,66,67,68,69,70,89,71,72,73,74,75,76,54,55,56,57,85,86,87,88,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,78,83,92,94,39,40,46,47,48,49) ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sbgl_node_class` WHERE `id` IN ('3','4','8','14','12','5','7','13','2') ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002213s ]
+
+[ 2017-11-18T13:23:24+08:00 ] 127.0.0.1 /admin.php/Index/desktop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sbgl_role` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `sbgl_node` WHERE `id` IN ('30','79','80','58','59','60','61','81','91','32','33','34','35','36','37','41','42','50','51','52','53','77','90','62','63','64','65','66','67','68','69','70','89','71','72','73','74','75','76','54','55','56','57','85','86','87','88','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','78','83','92','94','39','40','46','47','48','49')  [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: list E:\sbgl\Tools\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `sbgl_device` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` WHERE ( dv_time>=1510934400 AND dv_time<=1511020799 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` WHERE ( dv_time>=1510848000 AND dv_time<=1510934399 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` WHERE ( dv_time>=1509897600 AND dv_time<=1510502399 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_device` WHERE ( dv_time>=1509465600 AND dv_time<=1512057599 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sbgl_buy` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` WHERE ( time>=1510934400 AND time<=1511020799 ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` WHERE ( time>=1510848000 AND time<=1510934399 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` WHERE ( time>=1509897600 AND time<=1510502399 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_buy` WHERE ( time>=1509465600 AND time<=1512057599 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sbgl_repair` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_repair` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_repair` WHERE ( rp_time>=1510934400 AND rp_time<=1511020799 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_repair` WHERE ( rp_time>=1510848000 AND rp_time<=1510934399 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_repair` WHERE ( rp_time>=1509897600 AND rp_time<=1510502399 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_repair` WHERE ( rp_time>=1509465600 AND rp_time<=1512057599 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sbgl_borrow` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_borrow` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_borrow` WHERE ( br_time>=1510934400 AND br_time<=1511020799 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_borrow` WHERE ( br_time>=1510848000 AND br_time<=1510934399 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_borrow` WHERE ( br_time>=1509897600 AND br_time<=1510502399 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_borrow` WHERE ( br_time>=1509465600 AND br_time<=1512057599 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( type=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1510934400 AND reg_time<=1511020799 AND type=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1510848000 AND reg_time<=1510934399 AND type=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1509897600 AND reg_time<=1510502399 AND type=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1509465600 AND reg_time<=1512057599 AND type=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1510934400 AND reg_time<=1511020799 AND type=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1510848000 AND reg_time<=1510934399 AND type=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1509897600 AND reg_time<=1510502399 AND type=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sbgl_user` WHERE ( reg_time>=1509465600 AND reg_time<=1512057599 AND type=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002245s ]
+

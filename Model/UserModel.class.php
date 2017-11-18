@@ -26,6 +26,7 @@ class UserModel extends Model {
         $info['status'] = 0;
         $info = array();
         $info['msg'] = $this->where("user='{$name}'")->find();
+			
         if (empty($name)) {
             $info['msg'] = '请填写用户名！';
         } else if (empty($pwd)) {

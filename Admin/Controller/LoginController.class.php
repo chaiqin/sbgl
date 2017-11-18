@@ -10,7 +10,7 @@ class LoginController extends AdminController {
 
     public function login() {
         $usmd = new UserModel();
-
+		
         //登陆信息
         if (!empty($_POST)) {
             $verify = new Verify();
@@ -20,7 +20,9 @@ class LoginController extends AdminController {
                 $this->ajaxReturn($data);
             }
             $info = $usmd->checkNamePwd($_POST['user'], $_POST['psd']);
+			
             if ($info['status']) {
+				
                 $data['status'] = 1;
                 session('admin_id', $info['msg']['id']);
                 session('admin_user', $info['msg']['user']);
@@ -30,7 +32,7 @@ class LoginController extends AdminController {
                 //更新数据
                 $up['id'] = $info['msg']['id'];
                 $up['login_time'] = time();
-                $up['login_ip'] = getIp();
+                $up['login_ip'] = get_client_ip();
                 $up['login_number'] = $info['msg']['login_number'] + 1;
                 session('log_number', $up['login_number']);
                 $usmd->save($up);
