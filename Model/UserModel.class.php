@@ -25,7 +25,8 @@ class UserModel extends Model {
         //查找user_name为$name的信息
         $info['status'] = 0;
         $info = array();
-        $info['msg'] = $this->where("user='{$name}'")->find();
+		$where['user'] = $name;
+        $info['msg'] = $this->where($where)->find();
 			
         if (empty($name)) {
             $info['msg'] = '请填写用户名！';
