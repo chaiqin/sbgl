@@ -1,0 +1,37 @@
+[ 2018-01-29T16:14:28+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019381s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0484s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0225s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0649s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.295846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023503s ]
+
+[ 2018-01-29T16:14:29+08:00 ] 127.0.0.1 /admin.php/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `sbgl_node` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sbgl_role` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `sbgl_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `sbgl_node` WHERE ( public=0 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002874s ]
+
