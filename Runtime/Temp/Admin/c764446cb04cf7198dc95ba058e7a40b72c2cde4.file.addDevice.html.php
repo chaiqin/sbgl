@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-09-23 14:16:25
+<?php /* Smarty version Smarty-3.1.6, created on 2018-01-29 22:34:28
          compiled from "Admin/View\Device\addDevice.html" */ ?>
-<?php /*%%SmartyHeaderCode:2885759c5fc39bdab72-93824378%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:69785a6f3061986579-71381881%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c764446cb04cf7198dc95ba058e7a40b72c2cde4' => 
     array (
       0 => 'Admin/View\\Device\\addDevice.html',
-      1 => 1505997682,
+      1 => 1517236463,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2885759c5fc39bdab72-93824378',
+  'nocache_hash' => '69785a6f3061986579-71381881',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5a6f3061cc9e4',
   'variables' => 
   array (
     'dclist' => 0,
@@ -22,10 +24,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'mrlist' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_59c5fc3a0a511',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c5fc3a0a511')) {function content_59c5fc3a0a511($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'E:\\sbgl\\ThinkPHP\\Library\\Vendor\\Smarty\\plugins\\modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5a6f3061cc9e4')) {function content_5a6f3061cc9e4($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'E:\\sbgl\\ThinkPHP\\Library\\Vendor\\Smarty\\plugins\\modifier.date_format.php';
 ?><!DOCTYPE html>
 <html>
 
@@ -161,6 +161,9 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['n']['last']       = ($_smart
                                 <div class="layui-input-inline">
                                     <input type="text" name="dv_price" required=""
                                            autocomplete="off" class="layui-input">
+                                </div>
+								<div class="layui-form-mid layui-word-aux">
+                                    请保留两位小数
                                 </div>
                             </div>
                             <div class="layui-form-item">

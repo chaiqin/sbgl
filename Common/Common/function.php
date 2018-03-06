@@ -1,4 +1,13 @@
 <?php
+use Tools\Rsa;
+
+//rsa加密
+function rsa_encrypt($data){
+	$rsa = new Rsa();
+	$ex = json_encode($data);
+    $ret = $rsa->encrypt($ex);
+	return $ret;
+}
 
 //分页计数
 function icount($num=10) {

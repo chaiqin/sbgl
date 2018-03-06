@@ -13,7 +13,7 @@ class PersonController extends IndexController {
         $data['data'] = '';
         if (!verifyPwd($newPwd)) {
             $data['msg'] = '密码由6-21字母和数字组成！';
-            $this->ajaxReturn($data);
+            echo rsa_encrypt($data);
         }
         $usmd = new UserModel();
         $stu_id = session('admin_user');
@@ -29,7 +29,7 @@ class PersonController extends IndexController {
         } else {
             $data['msg'] = '现有密码错误！';
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
 }

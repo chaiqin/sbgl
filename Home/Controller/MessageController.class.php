@@ -26,7 +26,7 @@ class MessageController extends IndexController {
             }
             $data['data'][$v['dc_name']] = $array;
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
 }

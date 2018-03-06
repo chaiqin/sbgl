@@ -1,5 +1,5 @@
 <?php
-define('APP_DEBUG',TRUE); 
+define('APP_DEBUG',true); 
 
 define('BIND_MODULE','Home');
 

@@ -78,7 +78,7 @@ class IndexController extends \Tools\IndexController {
                 $data['msg'] = $usmd->getError();
             }
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //app登录
@@ -103,7 +103,7 @@ class IndexController extends \Tools\IndexController {
             $data['data'] = '';
             $data['msg'] = $info['msg'];
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //app用户认证
@@ -136,7 +136,7 @@ class IndexController extends \Tools\IndexController {
             $data['data']['session_id'] = session_id();
             $data['data']['access_key'] = session('access_key');
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     function logout() {
@@ -145,7 +145,7 @@ class IndexController extends \Tools\IndexController {
         $data['msg'] = '退出成功！';
         session_unset();
         session_write_close();
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //忘记密码
@@ -155,11 +155,11 @@ class IndexController extends \Tools\IndexController {
         $check = $usmd->where("user=$stu_id")->find();
         if (!$check) {
             $data['msg'] = '用户不存在！';
-            $this->ajaxReturn($data);
+            echo rsa_encrypt($data);
         }
         if (!verifyPwd($newPwd)) {
             $data['msg'] = '密码由6-21字母和数字组成！';
-            $this->ajaxReturn($data);
+            echo rsa_encrypt($data);
         }
         $result = analogLogin($stu_id, $pwd);
         if ($result) {
@@ -178,7 +178,7 @@ class IndexController extends \Tools\IndexController {
         } else {
             $data['msg'] = '正方账号或密码错误！';
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
 }

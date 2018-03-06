@@ -21,7 +21,7 @@ class MachineRoomController extends IndexController {
             $list[$k]['mrl_time'] = date('Y-m-d H:i:s', $list[$k]['mrl_time']);
         }
         $data['data'] = $list;
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //获取机房列表
@@ -36,7 +36,7 @@ class MachineRoomController extends IndexController {
             $array[$k]['room'] = $v['mr_room'];
         }
         $data['data'] = $array;
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //添加日志
@@ -60,7 +60,7 @@ class MachineRoomController extends IndexController {
         } else {
             $data['msg'] = $mrlmd->getError();
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
 }

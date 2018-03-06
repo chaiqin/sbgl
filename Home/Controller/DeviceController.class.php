@@ -32,7 +32,7 @@ class DeviceController extends IndexController {
         $shu = $bymd->create($record);
         if (!$shu) {
             $data['msg'] = $bymd->getError();
-            $this->ajaxReturn($data);
+            echo rsa_encrypt($data);
         }
 
         //分类及厂商处理
@@ -65,7 +65,7 @@ class DeviceController extends IndexController {
             $data['msg'] = '添加失败';
         }
 
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //获取设备信息
@@ -99,7 +99,7 @@ class DeviceController extends IndexController {
             $data['data'] = '';
             $data['msg'] = '无此设备！';
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //设备借用录入
@@ -124,11 +124,11 @@ class DeviceController extends IndexController {
             $finally = $dvmd->find($v);
             if ($result) {
                 $data['msg'] = '设备' . $v . '已被借用！';
-                $this->ajaxReturn($data);
+                echo rsa_encrypt($data);
             }
             if (empty($finally)) {
                 $data['msg'] = '设备' . $v . '不存在！';
-                $this->ajaxReturn($data);
+                echo rsa_encrypt($data);
             }
         }
 
@@ -141,13 +141,13 @@ class DeviceController extends IndexController {
                 $array['br_device_identifier'] = $m;
                 if (!($brmd->add($array))) {
                     $data['msg'] = '部分信息录入失败!';
-                    $this->ajaxReturn($data);
+                    echo rsa_encrypt($data);
                 }
             }
             $data['status'] = 200;
             $data['msg'] = '记录成功!';
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //设备归还
@@ -166,7 +166,7 @@ class DeviceController extends IndexController {
         } else {
             $data['msg'] = '验收失败';
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //获取借出的和需要维修的设备信息
@@ -211,7 +211,7 @@ class DeviceController extends IndexController {
         }
         $data['data']['repair'] = $rplist;
         $data['data']['borrow'] = $brlist;
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //获取用户借用未还的设备
@@ -228,7 +228,7 @@ class DeviceController extends IndexController {
             $brlist[$k]['br_return_time'] = date('Y-m-d', $brlist[$k]['br_return_time']);
         }
         $data['data'] = $brlist;
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //设备报修审核
@@ -248,7 +248,7 @@ class DeviceController extends IndexController {
                 $data['msg'] = '修改失败';
             }
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //设备维修确认
@@ -272,7 +272,7 @@ class DeviceController extends IndexController {
         } else {
             $data['msg'] = $rpmd->getError();
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //设备一键维修
@@ -296,7 +296,7 @@ class DeviceController extends IndexController {
 		$device = $dvmd->where("dv_identifier='{$info[rp_device_identifier]}'")->find();
         if (!$device) {
            $data['msg'] = '报修设备不存在！';
-           $this->ajaxReturn($data);
+           echo rsa_encrypt($data);
         }
 
         $shu = $rpmd->create($info);
@@ -310,7 +310,7 @@ class DeviceController extends IndexController {
         } else {
             $data['msg'] = $rpmd->getError();
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //设备报修
@@ -340,7 +340,7 @@ class DeviceController extends IndexController {
                 $data['msg'] = $rpmd->getError();
             }
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //所有设备分类
@@ -349,7 +349,7 @@ class DeviceController extends IndexController {
         $data['status'] = 200;
         $data['msg'] = '';
         $data['data'] = $dcmd->select();
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
     //查找同一设备分类的设备信息
@@ -371,7 +371,7 @@ class DeviceController extends IndexController {
             $data['data'][$k]['place'] = $v['mr_room'] . $v['dv_place'];
             $data['data'][$k]['time'] = date('Y-m-d', $v['dv_time']);
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
 }

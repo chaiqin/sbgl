@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-09-24 11:58:35
+<?php /* Smarty version Smarty-3.1.6, created on 2018-01-30 16:28:49
          compiled from "Admin/View\System\versionList.html" */ ?>
-<?php /*%%SmartyHeaderCode:2813759c72d6bbc0673-63934146%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:125a702cc1ce9227-33704863%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2813759c72d6bbc0673-63934146',
+  'nocache_hash' => '125a702cc1ce9227-33704863',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_59c72d6be30cb',
+  'unifunc' => 'content_5a702cc1f416d',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c72d6be30cb')) {function content_59c72d6be30cb($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'E:\\sbgl\\ThinkPHP\\Library\\Vendor\\Smarty\\plugins\\modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5a702cc1f416d')) {function content_5a702cc1f416d($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'E:\\sbgl\\ThinkPHP\\Library\\Vendor\\Smarty\\plugins\\modifier.date_format.php';
 ?><!DOCTYPE html>
 <html>
     <head>

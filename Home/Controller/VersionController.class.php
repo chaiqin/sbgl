@@ -36,7 +36,7 @@ class VersionController extends IndexController {
                 'down_link' => ''
             );
         }
-        $this->ajaxReturn($data);
+        echo rsa_encrypt($data);
     }
 
 }

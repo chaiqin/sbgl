@@ -27,7 +27,7 @@ class IndexController extends AdminController {
         }
         $list = array_unique($list);
         $list = implode(',', $list);
-        $flist = $ncmd->order('sort asc')->select($list);
+        $flist = $ncmd->where("display=1 and id in ({$list})")->order('sort asc')->select();
 
         $this->assign('bkstage', $bkstage);
         $this->assign('flist', $flist);

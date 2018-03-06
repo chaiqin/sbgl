@@ -2,16 +2,20 @@
 
 namespace Tools;
 
-use Think\Controller;
+use Think\Controller,
+    Tools\Rsa;
 
 class IndexController extends Controller {
 
     function __construct() {
         parent::__construct();
 
-        //对接收数据进行转义
-        $_GET = I('get.','','htmlspecialchars');
-        
+        //对接收数据进行rsa解密并转义
+		$rsa = new Rsa(); 
+        $_GET = $rsa->decrypt($_GET);
+		$_GET = json_decode($_GET);
+        $_GET = I('get.','','htmlspecialchars');        
+		
         //拒绝pc端访问
 //        if(is_pc()){
 //            exit();

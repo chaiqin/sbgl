@@ -1,0 +1,11 @@
+[ 2018-01-30T15:23:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021455s ]
+NOTIC: [8] Undefined index: session_id E:\sbgl\Tools\IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined index: timestamp E:\sbgl\Tools\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined index: signature E:\sbgl\Tools\IndexController.class.php 第 29 行.
+
