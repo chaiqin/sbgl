@@ -8,6 +8,49 @@ use Think\Controller,
 
 class IndexController extends \Tools\IndexController {
 
+    //报修界面
+    function index() {
+        $mrmd = M("Machine_room");
+        if (!empty($_POST)) {
+            $data['status'] = 0;
+            $info = I('post.', '', 'htmlspecialchars');
+            $size = $mrmd->where("mr_room='{$info['room']}'")->getField('mr_number');
+            //规范验证
+            if (empty($info['room'])) {
+                $data['msg'] = '请选择机房房号';
+                $this->ajaxReturn($data);
+            }
+            $is_int = ((int) $info['seat'] == $info['seat']) ? true : false;
+            if (!is_numeric($info['seat']) || !$is_int || $info['seat'] < 1 || $info['seat'] > $size) {
+                $data['msg'] = '请正确填写座位号数';
+                $this->ajaxReturn($data);
+            }
+            if (strlen($info['matter']) < 1 || strlen($info['matter']) > 250) {
+                $data['msg'] = '请控制在80字以内简要描述故障情况。';
+                $this->ajaxReturn($data);
+            }
+
+            $info['seat'] = (int) $info['seat'];
+            $input['rp_location'] = $info['room'] . 'S' . $info['seat'];
+            $rpmd = M('Repair');
+            //同一设备报修3次限制
+            $res = $rpmd->where("rp_location='{$input['rp_location']}' and rp_status!=3 and rp_solve_status=1")->count();
+            if ($res < 3) {
+                $input['rp_location'] = $info['room'] . 'S' . $info['seat'];
+                $input['rp_matter'] = $info['matter'];
+                $input['rp_time'] = time();
+                $input['rp_person_address'] = get_client_ip();
+                $rpmd->add($input);
+            }
+            $data['status'] = 1;
+            $data['msg'] = '报修成功';
+            $this->ajaxReturn($data);
+        }
+        $mrlist = $mrmd->select();
+        $this->assign('mrlist', $mrlist);
+        $this->display();
+    }
+
     function ajaxRepair() {
         $rpmd = new RepairModel();
         $data['rp_person'] = $_POST['person'];

@@ -1,0 +1,26 @@
+/*首页报修框中间显示*/
+.ind_rp{
+    width:400px;
+    margin:100px auto;
+    padding: 20px;
+    border: 1px solid #CBCBCB;
+}
+
+/*头部导航*/
+.head{
+    height: 55px;
+    background-color: #393D49;
+    border-bottom: 5px solid #1AA094;
+    font-size: 16px;
+}
+
+/*头部导航中间*/
+.bg{
+    background: none;
+}
+
+/*头部导航右浮动*/
+.head-right{
+    float: right;
+}
+

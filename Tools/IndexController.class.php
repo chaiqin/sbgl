@@ -47,7 +47,7 @@ class IndexController extends Controller {
         $visit = CONTROLLER_NAME . '/' . ACTION_NAME;
 
         //公有权限
-        $public = '.Index/ajaxRepair,Index/getNumber,Index/getRoom,Index/register,Index/login,Index/identification,Index/logout,'
+        $public = '.Index/ajaxRepair,Index/index,Index/getNumber,Index/getRoom,Index/register,Index/login,Index/identification,Index/logout,'
                 . 'Index/backPwd';
         //会员权限
         $member = '.Device/repair,Version/update,Device/getMyBr,Person/revisePwd';
